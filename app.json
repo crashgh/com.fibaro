@@ -1,14 +1,14 @@
 {
-  "id": "com.fibaro",
+  "id": "com.fibaro.unsecure",
   "name": {
-    "en": "Fibaro"
+    "en": "Fibaro Unsecure"
   },
   "brandColor": "#000000",
   "sdk": 2,
   "version": "2.2.8",
   "compatibility": ">=2.4.0",
   "description": {
-    "en": "Fibaro devices for Homey"
+    "en": "Fibaro devices unsecure for Homey"
   },
   "category": [
     "appliances",
@@ -13270,8 +13270,8 @@
     {
       "id": "FGS-213",
       "name": {
-        "en": "Single Switch 2",
-        "nl": "Enkele Schakelaar 2"
+        "en": "Single Switch 2 - Unsecure",
+        "nl": "Enkele Schakelaar 2 - Unsecure"
       },
       "class": "socket",
       "capabilities": [
@@ -13301,13 +13301,14 @@
           40960,
           45056
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 1734,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1734/FGS-2x3-EN-T-v1.0 06.06.2016.pdf",
         "learnmode": {
           "image": "/drivers/FGS-213/assets/learnmode.svg",
           "instruction": {
-            "en": "Press the button on, or the left switch of your Single Switch 2 three times",
-            "nl": "Druk driemaal op de knop op de linker schakelaar van Enkele Schakelaar 2"
+            "en": "Press the button on, or the left switch of your Single Switch 2 - Unsecure three times",
+            "nl": "Druk driemaal op de knop op de linker schakelaar van Enkele Schakelaar 2 - Unsecure"
           }
         },
         "defaultConfiguration": [
@@ -13895,8 +13896,8 @@
     {
       "id": "FGS-223",
       "name": {
-        "en": "Double Switch 2",
-        "nl": "Dubbele Schakelaar 2"
+        "en": "Double Switch 2 Unsecure",
+        "nl": "Dubbele Schakelaar 2 Unsecure"
       },
       "class": "socket",
       "capabilities": [
@@ -13926,13 +13927,14 @@
           40960,
           45056
         ],
+        "includeSecure": false,
         "zwaveAllianceProductId": 2731,
         "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2731/FGS-2x3-EN-T-v1.2.pdf",
         "learnmode": {
           "image": "/drivers/FGS-223/assets/learnmode.svg",
           "instruction": {
-            "en": "Press the button on your Double Switch 2 three times, this can also be done with the S1 input.",
-            "nl": "Druk driemaal op de knop van uw Dubbele Schakelaar 2, dit kan ook door middel van de S1 input."
+            "en": "Press the button on your Double Switch 2 Unsecure three times, this can also be done with the S1 input.",
+            "nl": "Druk driemaal op de knop van uw Dubbele Schakelaar 2 Unsecure, dit kan ook door middel van de S1 input."
           }
         },
         "associationGroupsMultiChannel": [

@@ -1,8 +1,8 @@
 {
   "id": "FGS-223",
   "name": {
-    "en": "Double Switch 2",
-    "nl": "Dubbele Schakelaar 2"
+    "en": "Double Switch 2 Unsecure",
+    "nl": "Dubbele Schakelaar 2 Unsecure"
   },
   "class": "socket",
   "capabilities": [
@@ -32,6 +32,7 @@
       40960,
       45056
     ],
+    "includeSecure": false,
     "zwaveAllianceProductId": 2731,
     "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2731/FGS-2x3-EN-T-v1.2.pdf",
     "learnmode": {

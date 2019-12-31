@@ -1,14 +1,14 @@
 {
-    "id": "com.fibaro",
+    "id": "com.fibaro.unsecure",
     "name": {
-      "en": "Fibaro"
+      "en": "Fibaro Unsecure"
     },
     "brandColor": "#000000",
     "sdk": 2,
     "version": "2.2.8",
     "compatibility": ">=2.4.0",
     "description": {
-      "en": "Fibaro devices for Homey"
+      "en": "Fibaro devices unsecure for Homey"
     },
     "category": [
       "appliances",
